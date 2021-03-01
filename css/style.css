@@ -20,3 +20,6 @@ ul li {
   display: inline-block;
   margin-right: 2vw;
 }
+.primary-box {
+  display: inline-block;
+}
