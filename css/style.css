@@ -13,40 +13,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
 }
-.header {
-  position: relative;
-  display: flex;
-  background-color: transparent;
-  overflow: hidden;
-  text-align: left;
-  justify-content: center;
-  line-height: 80px;
-  min-height: 80px;
-  width: 1100px;
-  margin: 3.5% auto;
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: inline-flex;
 }
 
-.logo {
-  width: 40%;
-  justify-content: left;
-}
-.nav {
-  width: 50%;
-  cursor: pointer;
-  color: aliceblue;
+ul li {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2%;
+  display: inline-flex;
+  text-transform: uppercase;
+  float: right;
+  font: 1%;
 }
 
 a {
   display: inline-block;
   margin-right: 2vw;
   color: aliceblue;
-}
-.primary-box {
-  display: inline-block;
-}
-.nav_list {
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
