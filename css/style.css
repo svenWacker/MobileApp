@@ -10,15 +10,13 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: aliceblue;
 }
 
 .navbar {
   height: 20vh;
-  width: 50vh;
+  width: 80vh;
   margin: auto;
   display: flex;
   text-align: justify;
@@ -66,7 +64,7 @@ section {
   text-align: center;
   display: flex;
   height: 80vh;
-  width: 50vh;
+  width: 80vh;
   margin: auto;
   color: white;
   border: red;
@@ -97,7 +95,7 @@ section {
   background-color: #0db43f;
   color: white;
   height: 3em;
-  width: 10vh;
+  width: 10em;
   font-weight: bold;
   font-size: 1.3em;
   border: none;
@@ -108,18 +106,18 @@ section {
   background-color: #1f90db;
   color: white;
   height: 3em;
-  width: 10vh;
+  width: 10em;
   font-weight: bold;
   font-size: 1.3em;
   border: none;
   border-radius: 0.5em;
   margin-left: 1em;
 }
-.right-col {
+/* .right-col {
   text-align: justify;
-}
+} */
 .hero img {
-  width: 11vh;
+  width: 17vh;
   height: auto;
 }
 
