@@ -4,8 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root {
-}
+
 body {
   background-image: url(../img/bg_001.jpg);
   background-position: center;
@@ -18,17 +17,21 @@ body {
 }
 
 .navbar {
-  padding: 1em;
-  display: center;
+  height: 10vh;
+  width: 50vh;
+  margin: auto;
+  display: flex;
+  text-align: justify;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  /* position: relative; */
 }
 
 .navbar .logo {
   width: 15%;
   height: 10%;
-  justify-content: left;
+  /* justify-content: left; */
 }
 
 .navbar nav {
@@ -58,14 +61,73 @@ a {
 section {
   padding: 6em 2em;
   text-align: center;
+  border: red;
 }
 .hero {
   text-align: center;
+  display: flex;
+  height: 60vh;
+  width: 50vh;
+  margin: auto;
+  color: white;
+  border: red;
+}
+.container {
+  justify-content: space-between;
+  display: inline;
+  margin: auto;
+  border: red;
 }
 .left-col h1 {
+  text-align: left;
   font-size: 2.5em;
   line-height: 1.3em;
   margin-top: 0.2em;
 }
-.left-col .text {
+.left-col {
+  position: left;
+  width: 55%;
+  text-align: justify;
+  margin: 5;
+}
+.buttons {
+  margin: auto;
+}
+
+.button1 {
+  background-color: #0db43f;
+  color: white;
+  height: 3em;
+  width: 10vh;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.button2 {
+  background-color: #1f90db;
+  color: white;
+  height: 3em;
+  width: 10vh;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 0.5em;
+  margin-left: 1em;
+}
+.right-col {
+  position: right;
+  width: 500px;
+}
+.phone1 {
+  height: 60vh;
+  z-index: -2;
+}
+
+.phone2 {
+  height: 50vh;
+  margin-left: -25%;
+  margin-top: 30vh;
+  z-index: -1;
 }
