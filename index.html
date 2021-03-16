@@ -62,12 +62,25 @@
         clicked = !clicked;
         console.log(clicked);
         if (clicked) {
-          document.querySelector(".side-menu").style.cssText =
+          document.querySelector(".navbar-list").style.cssText =
             "display: block; position: absolute;top: 3vh;left:0;z-index: 1;";
         } else {
-          document.querySelector(".side-menu").style.cssText = "display: none;";
+          document.querySelector(".navbar-list").style.cssText =
+            "display: none;";
         }
       });
+
+      // const mobileBtn = document.getElementById("mobile-cta");
+      // nav = document.querySelector("nav");
+      // mobileBtnExit = document.getElementById("mobile-exit");
+
+      // mobileBtn.addEventListener("click", () => {
+      //   nav.classList.add("menu-btn");
+      // });
+
+      // mobileBtnExit.addEventListener("click", () => {
+      //   nav.classList.remove("menu-btn");
+      // });
     </script>
   </body>
 </html>
