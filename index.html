@@ -10,8 +10,15 @@
   </head>
   <body>
     <section class="navbar">
-      <div class="container">
+      <div class="navbar-hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="navbar-logo">
         <img class="logo" src="./img/logo_001.png" alt="logo" />
+      </div>
+      <div class="navbar-list">
         <nav>
           <ul>
             <li><a href="#products">Products</a></li>
@@ -25,28 +32,42 @@
       </div>
     </section>
 
-    <section class="hero">
-      <div class="container">
-        <div class="left-col">
+    <section class="main">
+      <div class="main-right">
+        <div class="main-right-text">
           <h1>Make your Startup web with our template,</h1>
-          <p class="etxt">
+          <br />
+          <p class="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
             ipsum, fuga, accusantium quod aspernatur sequi amet, numquam
             laudantium perferendis consequatur aliquid culpa! Enim iste labore
             ad minima officiis esse fugit, tempora aliquid? Voluptate ut ad,
             deserunt aliquid assumenda maiores dicta?
           </p>
-
-          <div class="buttons">
+          <br />
+          <div class="main-right-uttons">
             <button class="button1">Learn More</button>
             <button class="button2">Get The App</button>
           </div>
         </div>
-        <div class="right-col">
+        <div class="main-left">
           <img src="./img/phone_002.png" class="images_image" alt="phone2" />
           <img src="./img/phone_001.png" class="images_image" alt="phone1" />
         </div>
       </div>
     </section>
+    <script>
+      let clicked = false;
+      document.querySelector(".hamburger").addEventListener("click", () => {
+        clicked = !clicked;
+        console.log(clicked);
+        if (clicked) {
+          document.querySelector(".side-menu").style.cssText =
+            "display: block; position: absolute;top: 3vh;left:0;z-index: 1;";
+        } else {
+          document.querySelector(".side-menu").style.cssText = "display: none;";
+        }
+      });
+    </script>
   </body>
 </html>
