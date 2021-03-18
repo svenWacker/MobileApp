@@ -41,13 +41,11 @@ header,
 section {
   padding: 4rem 0;
 }
-.main {
-  border: 2px red solid;
-}
+
 .split {
   justify-content: space-evenly;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .container {
@@ -67,7 +65,7 @@ img {
   margin: 5rem;
 }
 section {
-  /* padding: 6em 2em; */
+  padding: 6em 2em;
   text-align: center;
   display: inline-flex;
 }
