@@ -18,6 +18,7 @@ body {
   background-image: url(../img/bg_001.jpg);
   background-position: center;
   background-size: cover;
+  align-items: center;
 }
 
 p {
@@ -30,89 +31,56 @@ a {
   margin-right: 1vw;
   color: var(--clr-neutral-100);
 }
-h1,
-h2,
-h3 {
+h1 {
   color: var(--clr-neutral-100);
   font-family: var(--ff-accent);
   font-weight: 900;
-  line-height: 1;
+  line-height: 1.2;
+}
+header,
+section {
+  padding: 4rem 0;
+}
+.main {
+  border: 2px red solid;
+}
+.split {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
 }
 
-h2,
-h3,
-p {
-  margin-bottom: 1em;
+.container {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
 }
 
+.split-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
 img {
   display: block;
   max-width: 100%;
+  margin: 5rem;
 }
-.navbar {
-  height: 20vh;
-  width: 80vh;
-  margin: auto;
-  display: flex;
-  text-align: justify;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-}
-.navbar .logo {
-  width: 15%;
-  height: auto;
-}
-.navbar nav {
-  width: 100%;
-  cursor: pointer;
-}
-.navbar .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-ul li {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 5%;
-  display: inline-flex;
-  display: inline-block;
-  text-transform: uppercase;
-  float: right;
-}
-
 section {
   /* padding: 6em 2em; */
   text-align: center;
   display: inline-flex;
 }
-.hero {
-  text-align: center;
-  display: flex;
-  height: 80vh;
-  width: 80vh;
-  margin: auto;
-  color: white;
-  border: red;
-  padding-top: 4vh;
+
+.navbar-logo {
+  width: 15%;
+  height: auto;
 }
-.hero .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.left-col {
-  width: 55%;
-  text-align: justify;
-  margin: 10;
+
+ul li {
+  display: inline-flex;
   display: inline-block;
-}
-.left-col h1 {
-  text-align: left;
-  font-size: 2.5em;
-  line-height: 1.3em;
-  margin-top: 0.2em;
+  text-transform: uppercase;
 }
 
 .buttons {
@@ -141,21 +109,7 @@ section {
   border-radius: 0.5em;
   margin-left: 1em;
 }
-
-.hero img {
-  width: 40%;
-  height: auto;
-  margin-top: 1vh;
-  bottom: 5%;
-}
-
-.hero img:nth-of-type(1) {
-  position: relative;
-  right: -20%;
-  bottom: -1%;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.main-left,
+.main-right {
+  border: 2px blue dashed;
 }
