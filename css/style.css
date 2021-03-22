@@ -16,9 +16,8 @@ body {
   font-size: 1.3125rem;
   line-height: 1.6;
   background-image: url(../img/bg_001.jpg);
-  background-position: center;
+  /* background-position: center; */
   background-size: cover;
-  /* background-repeat: no-repeat; */
   align-items: center;
 }
 
@@ -121,7 +120,6 @@ ul li {
 }
 
 .main-left {
-  /* align-items: center; */
   display: flex;
   flex-direction: column;
   max-width: 50vw;
@@ -155,8 +153,8 @@ ul li {
 }
 
 .phones {
-  /* display: internal;
-  display: inline; */
+  display: internal;
+  display: inline;
   position: relative;
 }
 .image1 {
