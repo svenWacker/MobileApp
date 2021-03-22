@@ -18,7 +18,7 @@ body {
   background-image: url(../img/bg_001.jpg);
   /* background-position: center; */
   background-size: cover;
-  align-items: center;
+  /* align-items: center; */
 }
 
 p {
@@ -42,7 +42,7 @@ h1 {
   font-weight: 900;
   line-height: 1.6;
 }
-header,
+/* header, */
 section {
   display: flex;
   justify-content: space-around;
@@ -56,14 +56,14 @@ section {
 
 .split-navbar {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: center;
   justify-content: space-around;
 }
 .logo {
   display: inline-block;
   max-width: 100%;
-  margin: 1rem;
+  margin: 0rem;
 }
 section {
   padding: 3em 2em;
