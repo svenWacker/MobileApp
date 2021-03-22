@@ -64,10 +64,10 @@ section {
 .logo {
   display: inline-block;
   max-width: 100%;
-  margin: 3rem;
+  margin: 1rem;
 }
 section {
-  padding: 6em 2em;
+  padding: 3em 2em;
   text-align: left;
   display: flex;
 }
@@ -134,11 +134,11 @@ ul li {
   max-width: 50vw;
   flex-direction: row;
 }
-.container {
+/* .container {
   margin-inline: auto;
   width: min(90%, 70.5rem);
   display: flex;
-}
+} */
 .hamburger {
   display: flex;
   justify-content: space-evenly;
