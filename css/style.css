@@ -74,6 +74,7 @@ section {
 .navbar-logo {
   width: 15%;
   height: auto;
+  /* float: left; */
 }
 
 ul li {
@@ -87,7 +88,7 @@ ul li {
   align-items: center;
   margin: auto;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
 }
 
 .button1 {
